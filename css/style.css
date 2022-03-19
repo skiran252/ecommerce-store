@@ -1,0 +1,26 @@
+@import './navbar.css';
+@import './carousel.css';
+@import './home.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* reset css */
+:root {
+    font-size: 1rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 1300px) {
+    :root {
+        font-size: 0.8rem;
+    }
+}
