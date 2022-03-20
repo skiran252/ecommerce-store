@@ -19,6 +19,7 @@ main {
     background-color: #fbf8f8;
     border-radius: 0.25rem;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    color: black;
 }
 .category-item img {
     width: 100%;

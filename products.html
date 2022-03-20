@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadgets locale | products</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="navbar-brand" href="/">Gadgets locale</a>
+            <div class="navbar-collapse">
+                <form class="search-form">
+                    <input class="search-bar" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <ul class="navbar-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./products.html">SHOP</a>
+                    </li>
+<li class="nav-item">
+                        <a class="nav-link" href="./wishlist.html"><i class="fa fa-light fa-heart"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cart.html"><i class="fa fa-shopping-cart"></i> </a>
+                    </li>
+                </ul>
+                <a class="login-btn" type="button" href="/login.html">
+                    LOGIN
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div class="product-listing-page">
+        <div class="product-filters">
+            <form action="" class="filters-form">
+                <div class="flex flex-row justify-content-between">
+                    <h3>Filters</h3>
+                    <button class="clear-btn" type="reset">Clear</button>
+                </div>
+                <div class="filter-item flex flex-column">
+                    <label for="price" class="filter-label">Price</label>
+                    <div class="flex justify-content-between">
+                        <div class="min-value">100</div>
+                        <div class="max-value">300000</div>
+                    </div>
+                    <div class="range-container">
+                        <input type="range" class="range-slider" name="price" id="price" min="100" max="300000"
+                            value="20000">
+                        <output class="bubble"></output>
+                    </div>
+
+                </div>
+                <div class="filter-item flex flex-column">
+                    <label for="Category" class="filter-label">Category</label>
+                    <div class="flex flex-column justify-content-between">
+                        <div class="checkbox-container">
+                            <input type="checkbox" name="category" value="gaming" id="category-gaming">
+                            <label for="category-gaming" class="checkbox-label">Gaming</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" name="category" value="light-weight" id="category-light-weight">
+                            <label for="category-light-weight" class="checkbox-label">LightWeight</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" name="category" value="workstation" id="category-workstation">
+                            <label for="category-workstation" class="checkbox-label">workstation</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" name="category" value="two-in-one" id="category-two-in-one">
+                            <label for="category-two-in-one" class="checkbox-label">2 in 1 Laptops</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" name="category" value="chromebook" id="category-chromebook">
+                            <label for="category-chromebook" class="checkbox-label">Chromebook</label>
+                        </div>
+
+                        <div class="checkbox-container">
+                            <input type="checkbox" name="category" value="chromebook" id="category-camera">
+                            <label for="category-camera" class="checkbox-label">Camera</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="filter-item flex flex-column">
+                    <div class="filter-label">Ratings</div>
+                    <div class="radio-container">
+                        <input type="radio" name="rating" value="4" id="rating4">
+                        <label for="rating4" class="radio-label">3 Stars & above</label>
+                    </div>
+                    <div class="radio-container">
+                        <input type="radio" name="rating" value="3" id="rating3">
+                        <label for="rating3" class="radio-label">3 Stars & above</label>
+                    </div>
+                    <div class="radio-container">
+                        <input type="radio" name="rating" value="2" id="rating2">
+                        <label for="rating2" class="radio-label">2 Stars & above</label>
+                    </div>
+                    <div class="radio-container">
+                        <input type="radio" name="rating" value="1" id="rating1">
+                        <label for="rating1" class="radio-label">1 Stars & above</label>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+        <div class="products-listing-area">
+            <div class="search-result flex align-items-center">
+                <h3> Showing All Products </h3>
+                <p> (Showing 10 products) </p>
+            </div>
+            <div class="products-list">
+                <div class="product-card">
+                    <div class="product-wishlist-button in-wishlist">
+                        <i class="fa fa-regular fa-heart"></i>
+                    </div>
+                    <div class="product-image-container">
+                        <img src="images/camera.jpg" alt="product-1" class="product-image">
+                    </div>
+                    <div class="product-descrition">
+                        <div class="product-title">Nikon's DSLR Camera</div>
+                        <div class="product-price">
+                            <span class="product-price-symbol">$</span>
+                            <span class="product-price-value">100</span>
+                        </div>
+
+                    </div>
+                    <button class="add-to-cart-btn" type="button">
+                        <i class="fa fa-regular fa-cart-plus"></i>
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="product-card">
+                    <div class="product-wishlist-button">
+                        <i class="fa fa-regular fa-heart"></i>
+                    </div>
+                    <div class="product-image-container">
+                        <img src="images/macbook.jpg" alt="product-1" class="product-image">
+                    </div>
+                    <div class="product-descrition">
+                        <div class="product-title">Macbook pro 16" 2021</div>
+                        <div class="product-price">
+                            <span class="product-price-symbol">$</span>
+                            <span class="product-price-value">2000</span>
+                        </div>
+
+                    </div>
+                    <button class="go-to-cart-btn" type="button">
+                        <span>Go to Cart</span>
+                        <i class="fa fa-regular fa-shopping-cart"></i>
+
+                    </button>
+                </div>
+                <div class="product-card">
+                    <div class="product-wishlist-button">
+                        <i class="fa fa-regular fa-heart"></i>
+                    </div>
+                    <div class="product-image-container">
+                        <img src="images/tablet.jpg" alt="product-1" class="product-image">
+                    </div>
+                    <div class="product-descrition">
+                        <div class="product-title">Samsung Galaxy Tab </div>
+                        <div class="product-price">
+                            <span class="product-price-symbol">$</span>
+                            <span class="product-price-value">800</span>
+                        </div>
+
+                    </div>
+                    <button class="add-to-cart-btn" type="button">
+                        <i class="fa fa-regular fa-cart-plus"></i>
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="product-card">
+                    <div class="product-wishlist-button">
+                        <i class="fa fa-regular fa-heart"></i>
+                    </div>
+                    <div class="product-image-container">
+                        <img src="images/smart-phone.jpg" alt="product-1" class="product-image">
+                    </div>
+                    <div class="product-descrition">
+                        <div class="product-title">Apple iPhone 13 Max</div>
+                        <div class="product-price">
+                            <span class="product-price-symbol">$</span>
+                            <span class="product-price-value">1099</span>
+                        </div>
+
+                    </div>
+                    <button class="add-to-cart-btn" type="button">
+                        <i class="fa fa-regular fa-cart-plus"></i>
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="product-card">
+                    <div class="product-wishlist-button">
+                        <i class="fa fa-regular fa-heart"></i>
+                    </div>
+                    <div class="product-image-container">
+                        <img src="./images/accessory.jpg" alt="product-1" class="product-image">
+                    </div>
+                    <div class="product-descrition">
+                        <div class="product-title">Bose Headphones</div>
+                        <div class="product-price">
+                            <span class="product-price-symbol">$</span>
+                            <span class="product-price-value">400</span>
+                        </div>
+
+                    </div>
+                    <button class="add-to-cart-btn" type="button">
+                        <i class="fa fa-regular fa-cart-plus"></i>
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="product-card">
+                    <div class="product-wishlist-button">
+                        <i class="fa fa-regular fa-heart"></i>
+                    </div>
+                    <div class="product-image-container">
+                        <img src="images/camera.jpg" alt="product-1" class="product-image">
+                    </div>
+                    <div class="product-descrition">
+                        <div class="product-title">Nikon's DSLR Camera</div>
+                        <div class="product-price">
+                            <span class="product-price-symbol">$</span>
+                            <span class="product-price-value">100</span>
+                        </div>
+
+                    </div>
+                    <button class="add-to-cart-btn" type="button">
+                        <i class="fa fa-regular fa-cart-plus"></i>
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="product-card">
+                    <div class="product-wishlist-button">
+                        <i class="fa fa-regular fa-heart"></i>
+                    </div>
+                    <div class="product-image-container">
+                        <img src="images/camera.jpg" alt="product-1" class="product-image">
+                    </div>
+                    <div class="product-descrition">
+                        <div class="product-title">Nikon's DSLR Camera</div>
+                        <div class="product-price">
+                            <span class="product-price-symbol">$</span>
+                            <span class="product-price-value">100</span>
+                        </div>
+
+                    </div>
+                    <button class="add-to-cart-btn" type="button">
+                        <i class="fa fa-regular fa-cart-plus"></i>
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="product-card">
+                    <div class="product-wishlist-button">
+                        <i class="fa fa-regular fa-heart"></i>
+                    </div>
+                    <div class="product-image-container">
+                        <img src="images/camera.jpg" alt="product-1" class="product-image">
+                    </div>
+                    <div class="product-descrition">
+                        <div class="product-title">Nikon's DSLR Camera</div>
+                        <div class="product-price">
+                            <span class="product-price-symbol">$</span>
+                            <span class="product-price-value">100</span>
+                        </div>
+
+                    </div>
+                    <button class="add-to-cart-btn" type="button">
+                        <i class="fa fa-regular fa-cart-plus"></i>
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="product-card">
+                    <div class="product-wishlist-button">
+                        <i class="fa fa-regular fa-heart"></i>
+                    </div>
+                    <div class="product-image-container">
+                        <img src="images/camera.jpg" alt="product-1" class="product-image">
+                    </div>
+                    <div class="product-descrition">
+                        <div class="product-title">Nikon's DSLR Camera</div>
+                        <div class="product-price">
+                            <span class="product-price-symbol">$</span>
+                            <span class="product-price-value">100</span>
+                        </div>
+
+                    </div>
+                    <button class="add-to-cart-btn" type="button">
+                        <i class="fa fa-regular fa-cart-plus"></i>
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="product-card">
+                    <div class="product-wishlist-button">
+                        <i class="fa fa-regular fa-heart"></i>
+                    </div>
+                    <div class="product-image-container">
+                        <img src="images/camera.jpg" alt="product-1" class="product-image">
+                    </div>
+                    <div class="product-descrition">
+                        <div class="product-title">Nikon's DSLR Camera</div>
+                        <div class="product-price">
+                            <span class="product-price-symbol">$</span>
+                            <span class="product-price-value">100</span>
+                        </div>
+
+                    </div>
+                    <button class="add-to-cart-btn" type="button">
+                        <i class="fa fa-regular fa-cart-plus"></i>
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>

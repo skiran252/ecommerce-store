@@ -1,6 +1,12 @@
+@import './flex.css';
 @import './navbar.css';
 @import './carousel.css';
 @import './home.css';
+@import'./product-page.css';
+@import './product.css';
+@import './wishlist.css';
+@import './login.css';
+@import './cart.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* reset css */
 :root {
